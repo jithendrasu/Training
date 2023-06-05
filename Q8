@@ -1,0 +1,14 @@
+public class Main {
+  public static void main(String[] args) {
+    String a = "Welcome To Java";
+    int spaceCount = 0;
+    for (int i = 0; i < a.length(); i++) {
+      if (a.charAt(i) == ' ') {
+        spaceCount++;
+      }
+    }
+    System.out.println("The number of spaces is: " + spaceCount);
+    String[] words = a.split(" ");
+    System.out.println("The first word is: " + words[0]);
+  }
+}
