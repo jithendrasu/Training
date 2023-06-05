@@ -1,0 +1,14 @@
+
+class B {
+  int num = 10;
+  B(int n) {
+    num = n;
+  }
+}
+
+class A {
+  public static void main(String[] args) {
+    B obj = new B(20);
+    System.out.println("The value of num in class B is " + obj.num);
+  }
+}
