@@ -1,0 +1,34 @@
+class Person {
+  private String name;
+
+  
+  public Person(String name) {
+    this.name = name;
+  }
+
+ 
+  public String getName() {
+    return name;
+  }
+
+
+  public void setName(String name) {
+    this.name = name;
+  }
+}
+
+
+class Main {
+  public static void main(String[] args) {
+   
+    Person p = new Person("Alice");
+
+    
+    System.out.println("The name is: " + p.getName());
+
+   
+    p.setName("Bob");
+
+    System.out.println("The new name is: " + p.getName());
+  }
+}
