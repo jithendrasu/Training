@@ -1,0 +1,18 @@
+class AgeException extends Exception {
+  AgeException(String message) {
+    super(message);
+  }
+}
+class AgeTest {
+  public static void main(String[] args) {
+    int age = 20;
+    try {
+      if (age < 25 || age > 55) {
+        throw new AgeException("Invalid age: " + age);
+      }
+      System.out.println("Valid age: " + age);
+    } catch (AgeException e) {
+      System.out.println(e.getMessage());
+    }
+  }
+}
