@@ -1,0 +1,4 @@
+float num1 = 8.6f;
+float num2 = 9.7f;
+float sum = num1 + num2;
+System.out.println("The sum of " + num1 + " and " + num2 + " is " + sum);
