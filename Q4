@@ -1,0 +1,10 @@
+public static int calculate(int num1, int num2, String operation) {
+  int result = 0;
+  switch (operation) {
+    case "add":
+      result = num1 + num2;
+      break;
+    case "subs":
+      result = num1 - num2;
+      break;
+    case "multiplication":
