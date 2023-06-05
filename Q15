@@ -1,0 +1,11 @@
+import org.apache.commons.lang3.RandomStringUtils;
+
+public class RandomDemo {
+  public static void main (String[] args) {
+   
+    String randomString = RandomStringUtils.randomAlphanumeric(10);
+
+  
+    System.out.println("Random string: " + randomString);
+  }
+}
