@@ -1,0 +1,4 @@
+Map<String, Emp> m = new Hashtable<> ();
+
+Emp e1 = new Emp ("Jadeja", "Sales", 5000); 
+m.put ("123", e1);
