@@ -1,0 +1,10 @@
+public int returnNumber(){
+
+    int c = 0;
+
+    float a = 7.8f;
+
+    float b = 4.4f;
+
+    return c;
+  }
